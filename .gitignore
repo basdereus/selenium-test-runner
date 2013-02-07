@@ -1,6 +1,16 @@
-*.class
+# gradle specific ignores
+# ignore all build output. Note: build scripts can have different output folders.
+bin/
+build/
 
-# Package Files #
-*.jar
-*.war
-*.ear
+distribution/
+
+# ignore gradle folders. Used by the wrapper
+.gradle/
+.gitignore
+
+# eclipse ignores
+# classpath and project files
+*.classpath
+*.project
+*.settings/
